@@ -1,5 +1,9 @@
 #elabore um programa que calculer o valor a ser pago por um produto
 #considerando o seu preço normal e condição de pagamento:
+#A vista cheue/dinheiro 10% de desconto
+#a vista no cartão: 5% de desconto
+#em até 2x no cartão: preço normal
+#3x ou mais no cartão: 20% de juros
 produto = float(input('Quanto custa o produto? '))
 forma = str(input('Qual forma de pagamento? '))
 valor = produto
