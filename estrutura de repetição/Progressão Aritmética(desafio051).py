@@ -1,5 +1,5 @@
 #Desenvolava um programa que leia o priemiro termo e a razão
-#de uma PA. No final, mostre os 10 primeirostermos de progressão
+#de uma PA. No final, mostre os 10 primeiros termos de progressão
 primeiro = int(input('Primeiro termo: '))
 razão = int(input('Razão: '))
 decimo = primeiro + (10 - 1) * razão
