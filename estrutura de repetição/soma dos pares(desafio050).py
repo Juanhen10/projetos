@@ -8,4 +8,6 @@ for c in range(1,7):
     if a % 2 == 0:
         soma +=a
         print('Esse numero é par')
+    else:
+        print('\033[31mNumeros impares\033[m ')
 print(f'E a soma deles são {soma}')
