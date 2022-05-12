@@ -1,5 +1,5 @@
 #Faça um progrma que leia um número qualquer e mostre o seu fatorial
-n = int(input('Digite um número paracalclar seu Fatorial: '))
+n = int(input('Digite um número para calcular seu Fatorial: '))
 cont = n
 fato = 1
 print(f'Calculando {n}! = ', end="")
