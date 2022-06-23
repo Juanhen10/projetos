@@ -2,7 +2,7 @@
 # A- quantas pessoas foram cadastradas
 # B - Uma listagem com as pessoas mais pesadas
 # C - uma listagem com as pessoas mais leves
-cont = kg = 0
+cont = 0
 seg = list()
 dados = list()
 maior = menor = 0
