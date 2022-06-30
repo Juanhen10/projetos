@@ -13,7 +13,7 @@ if dados['cpts'] > 0:
     dados['salario'] = float(input('Qual salario?R$ '))
     dados['anoC'] = int(input('Quantos anos de contratado: '))
     dados['aposentadoria'] = ano - dados['anoC']
-    if dados['anoC'] >= 35:
+    if dados['anoC'] >= 65:
        dados['aposentadoria'] = (dados['idade'] - dados['aposentadoria']) + dados['idade']
        print(f'os dados foram {dados}')
        print(f'nome = {dados["nome"]}')
@@ -22,7 +22,8 @@ if dados['cpts'] > 0:
        print(f'Contratação = {dados["anoC"]}')
        print(f'Slario = {dados["salario"]}')
        print(f'aposentadoria = {dados["aposentadoria"]}')
-    elif dados['anoC'] < 35:
+       print(f'\033[32mJá está na hora de se aposentar!\033[m')
+    elif dados['anoC'] < 65:
         dados['aposentadoria'] = (dados['idade'] - dados['aposentadoria']) + dados['idade']
         print(f'os dados foram {dados}')
         print(f'nome = {dados["nome"]}')
@@ -31,6 +32,8 @@ if dados['cpts'] > 0:
         print(f'Contratação = {dados["anoC"]}')
         print(f'Slario = {dados["salario"]}')
         print(f'aposentadoria = {dados["aposentadoria"]}')
+        print(f'\033[31mAinda falta alguns anos para vc aposentar !\033[m')
+
 else:
     if dados['cpts'] == 0:
         print('Arrume um emprego se não vai demorar para você aposentar!')
