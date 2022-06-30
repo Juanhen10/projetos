@@ -4,7 +4,6 @@
 # No final tudo isso será guardado em um diocionario, incluindo o total de gols feitos durante o campeonato
 dados = {}
 cont = 0
-tot = []
 print(f'\033[34m▬\033[m' * 30)
 dados['jogador'] = str(input('Qual jogador? '))
 dados['Partidas'] = int(input('Quantas partidas: '))
