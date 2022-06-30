@@ -1,5 +1,5 @@
 #Crie um programa que leia o nome, ano de nascimento e carteira de trabalho e cadastre-os(com idade)
-# em um dicionarios, se po acaso a CTPS for diferente de zero
+# em um dicionarios, se por acaso a CTPS for diferente de zero
 # o dicionario recebera também o ano de contratação e o salario.
 # Calcule e acrescente, além da idade, com quantos anos a pessoa vai se aposentar
 from datetime import datetime
