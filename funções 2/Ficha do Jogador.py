@@ -2,12 +2,17 @@
 # que receba dois parametros opcionais: O nome de um jogador e quantos gols ele marcou
 # O Programa devera ser capaz de mostrar a ficha do jogador,
 # mesmo que algum dado não tenha sido informado corretamente
-def ficha(nome = '', gols = 0 ):
-    if nome not in '' or gols > 1:
-        print(f'o jogador, {nome} fez {gols} gols')
-    if nome == '':
-        print(f'o jogador <jogador desconhecido> fez {gols}')
+def ficha(nome = '', gols = 0):
+    print(f'o Jogador {nome} fez {gols} gols no campeonato ')
 
-ficha('juan', 28)
-ficha('', 5)
-ficha()
+
+jogador = str(input('Nome do jogador: '))
+g = str(input('Gol do jogador: '))
+if g.isnumeric():
+    g = int(g)
+else:
+    g = 0
+if jogador.strip() == '':
+    ficha(gols= g)
+else:
+    ficha(jogador, g)
