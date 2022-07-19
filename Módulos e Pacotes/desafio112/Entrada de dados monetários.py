@@ -1,5 +1,5 @@
 #Dentro do pacote utilidadesCeV que criamos no desafio 111,
-# tenis um modo chamado dado. Crie uma função chamado leiaDinheiro()
+# tem um modo chamado dado. Crie uma função chamado leiaDinheiro()
 # que seja capaz de funcionar como a função input()
 # mas com uma validação de dados para aceitar apenas valores que sejam monetários
 from time import sleep
